@@ -48,5 +48,6 @@ The potentiometer allows fine-tuning of the switching point, enabling precise co
 
 
 ## 📷 Preview
-
+![Top](Images/top.png)
+![Bottom](Images/bottom.png)
 
