@@ -1,12 +1,10 @@
 # Adjustable Light Sensor (LDR + 555 Timer)
 
-## 📌 Overview
+## Overview
 
-This project implements an **adjustable light-sensitive switching circuit** using an LDR, a potentiometer, and a 555 Timer IC. The system detects ambient light intensity and automatically turns an LED ON or OFF based on a user-defined threshold. The sensitivity of the circuit can be tuned using the potentiometer, making it adaptable for different lighting conditions.
+This project is an **adjustable light-sensitive switching circuit** using an LDR, a potentiometer and a 555 Timer IC. The system detects ambient light intensity and automatically turns an LED ON or OFF based on a user-defined threshold. The sensitivity of the circuit can be tuned using the potentiometer which makes it adaptable for different lighting conditions.
 
-
-
-## ⚙️ Features
+## Features
 
 * Automatic light detection using LDR
 * Adjustable sensitivity via potentiometer
@@ -14,10 +12,7 @@ This project implements an **adjustable light-sensitive switching circuit** usin
 * Simple, low-cost analog design
 * Suitable for real-world automation applications
 
-
-
-## 🔧 Components Used
-
+## Components Used
 * LDR (Light Dependent Resistor)
 * Potentiometer
 * 555 Timer IC
@@ -27,7 +22,7 @@ This project implements an **adjustable light-sensitive switching circuit** usin
 * Power Supply (5V–9V)
 
 
-## 🧠 Working Principle
+## Working Principle
 
 The LDR and potentiometer form a voltage divider that generates a voltage corresponding to ambient light intensity. This voltage is fed into the 555 Timer IC, which operates as a comparator.
 
@@ -36,8 +31,7 @@ The LDR and potentiometer form a voltage divider that generates a voltage corres
 
 The potentiometer allows fine-tuning of the switching point, enabling precise control over when the LED activates.
 
-
-## 🎯 Applications
+## Applications
 
 * Automatic street lighting
 * Night lamps
@@ -45,9 +39,12 @@ The potentiometer allows fine-tuning of the switching point, enabling precise co
 * Energy-efficient lighting systems
 * Basic sensor interfacing projects
 
+## What I have learnt from this project
+* Basic PCB Design by KiCad
+* Usage of LDR for sensing light
+* Usage of 555 Timer in various applications
 
-
-## 📷 Preview
+## Preview
 ![Top](Images/top.png)
 ![Bottom](Images/bottom.png)
 
